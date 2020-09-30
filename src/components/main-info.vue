@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container pt-4">
     <div class="card">
       <h4 class="card-header">Hüseyin Dedeoğlu</h4>
       <div class="card-body">
-        <h4 class="card-title">Hello There</h4>
+        <h5 class="card-title">Hi There <span class="cursor">👋</span></h5>
         <p class="card-text">
           I'm a passionate fullstack developer who loves to build web stuff.
         </p>
@@ -49,5 +49,8 @@ export default {
 <style scoped>
 .icon-size {
   font-size: 40pt;
+}
+.cursor {
+  cursor: grab;
 }
 </style>
