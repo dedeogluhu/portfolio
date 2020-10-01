@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <b-card no-body>
-      <b-tabs card fill>
+      <b-tabs card>
         <b-tab title="Skills" active>
           <b-card-text> <skillsTab /> </b-card-text>
         </b-tab>
