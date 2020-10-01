@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-light">
+  <div id="app">
     <mainInfo />
     <tabsSection />
     <vFooter />
@@ -22,4 +22,8 @@ export default {
 </script>
 
 <style>
+#app {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
 </style>
