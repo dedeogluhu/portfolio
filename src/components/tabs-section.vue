@@ -3,13 +3,19 @@
     <b-card no-body>
       <b-tabs card>
         <b-tab title="Skills" active>
-          <b-card-text> <skillsTab /> </b-card-text>
+          <b-card-text>
+            <skillsTab />
+          </b-card-text>
         </b-tab>
         <b-tab title="Projects">
-          <b-card-text> <projectsTab /> </b-card-text>
+          <b-card-text>
+            <projectsTab />
+          </b-card-text>
         </b-tab>
         <b-tab title="Resume">
-          <b-card-text> <resumeTab /> </b-card-text>
+          <b-card-text>
+            <resumeTab />
+          </b-card-text>
         </b-tab>
       </b-tabs>
     </b-card>
