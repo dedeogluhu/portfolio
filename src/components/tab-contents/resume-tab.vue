@@ -1,5 +1,7 @@
 <template>
-  <div>Resume....</div>
+  <div class="container">
+    <img src="https://picsum.photos/1050/1920/?image=15" alt="image" />
+  </div>
 </template>
 
 <script>
@@ -8,5 +10,5 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 </style>
