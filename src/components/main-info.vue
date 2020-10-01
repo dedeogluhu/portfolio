@@ -3,7 +3,7 @@
     <div class="card">
       <h4 class="card-header">Hüseyin Dedeoğlu</h4>
       <div class="card-body">
-        <h5 class="card-title">Hi There <span class="cursor">👋</span></h5>
+        <h5 class="card-title">Hi There <a href="#" class="cursor">👋</a></h5>
         <h5 class="card-text">
           I'm a passionate fullstack developer who loves to build web stuff.
         </h5>
@@ -51,6 +51,7 @@ export default {
   font-size: 35pt;
 }
 .cursor {
+  text-decoration: none;
   cursor: grab;
 }
 </style>
