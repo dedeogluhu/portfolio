@@ -4,9 +4,9 @@
       <h4 class="card-header">Hüseyin Dedeoğlu</h4>
       <div class="card-body">
         <h5 class="card-title">Hi There <span class="cursor">👋</span></h5>
-        <p class="card-text">
+        <h5 class="card-text">
           I'm a passionate fullstack developer who loves to build web stuff.
-        </p>
+        </h5>
         <p class="card-text">You can reach me here:</p>
         <a
           href="mailto:huseyin_dedeoglu1@outlook.com"
@@ -48,7 +48,7 @@ export default {
   
 <style scoped>
 .icon-size {
-  font-size: 40pt;
+  font-size: 35pt;
 }
 .cursor {
   cursor: grab;
