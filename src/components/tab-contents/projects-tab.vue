@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <b-card
       :title="project.title"
       :img-src="project.photo"
@@ -28,23 +28,9 @@ export default {
     return {
       projects: [
         {
-          title: "Project1",
-          text: "Lorem ipsum dolor sit amet.",
+          title: "dedeogluhu.github.io",
+          text: "A portfolio website made using vue and bootstrap",
           photo: "https://picsum.photos/1000/200/?image=15",
-          live: "https://dedeogluhu.github.io",
-          source: "https://github.com/dedeogluhu",
-        },
-        {
-          title: "Project3",
-          text: "Lorem ipsum dolor sit amet.",
-          photo: "https://picsum.photos/1000/200/?image=25",
-          live: "https://dedeogluhu.github.io",
-          source: "https://github.com/dedeogluhu",
-        },
-        {
-          title: "Project4",
-          text: "Lorem ipsum dolor sit amet.",
-          photo: "https://picsum.photos/1000/200/?image=23",
           live: "https://dedeogluhu.github.io",
           source: "https://github.com/dedeogluhu",
         },
