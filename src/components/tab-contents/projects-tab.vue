@@ -7,7 +7,7 @@
       v-for="project in projects"
       :key="project.title"
     >
-      <div :class="`crop-image ${project.imageClass}`"></div>
+      <div :class="`project-card-image ${project.imageClass}`"></div>
       <b-card-text>
         {{ project.text }}
       </b-card-text>
@@ -49,11 +49,12 @@ export default {
 .card-height {
   height: 10rem;
 }
-.crop-image {
+.project-card-image {
   width: 1000px;
   height: 200px;
   overflow: hidden;
 }
+/* Project Images */
 .project-image-dedeogluhu {
   background-image: url(../../assets/Dedeogluhu-screenshot.png);
   background-position: center 0;
