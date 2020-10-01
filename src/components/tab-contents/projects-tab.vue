@@ -9,6 +9,7 @@
     >
       <div :class="`project-card-image ${project.imageClass}`"></div>
       <b-card-text>
+        <br />
         {{ project.text }}
       </b-card-text>
       <b-button-group>
