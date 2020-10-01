@@ -2,20 +2,22 @@
   <div class="container">
     <b-card
       :title="project.title"
-      :img-src="project.photo"
-      img-alt="Image"
-      img-top
       tag="article"
       class="mb-2"
       v-for="project in projects"
       :key="project.title"
     >
+      <div :class="`crop-image ${project.imageClass}`"></div>
       <b-card-text>
         {{ project.text }}
       </b-card-text>
       <b-button-group>
-        <b-button :href="project.live" variant="primary">See Live</b-button>
-        <b-button :href="project.source" variant="secondary">Source</b-button>
+        <b-button :href="project.live" variant="outline-primary">
+          See Live
+        </b-button>
+        <b-button :href="project.source" variant="outline-secondary">
+          Source
+        </b-button>
       </b-button-group>
     </b-card>
   </div>
@@ -30,7 +32,7 @@ export default {
         {
           title: "dedeogluhu.github.io",
           text: "A portfolio website made using vue and bootstrap",
-          photo: "https://picsum.photos/1000/200/?image=15",
+          imageClass: "project-image-dedeogluhu",
           live: "https://dedeogluhu.github.io",
           source: "https://github.com/dedeogluhu",
         },
@@ -40,11 +42,21 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .card-width {
   width: 20rem;
 }
 .card-height {
   height: 10rem;
+}
+.crop-image {
+  width: 1000px;
+  height: 200px;
+  overflow: hidden;
+}
+.project-image-dedeogluhu {
+  background-image: url(../../assets/Dedeogluhu-screenshot.png);
+  background-position: center 0;
+  background-size: cover;
 }
 </style>
