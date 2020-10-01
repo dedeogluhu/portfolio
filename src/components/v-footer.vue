@@ -1,6 +1,6 @@
 <template>
   <footer class="container text-center mt-5 py-2">
-    <h6>Copyright &copy; Hüseyin Dedeoğlu 2020</h6>
+    <h6>Copyright &copy; 2020 Hüseyin Dedeoğlu</h6>
   </footer>
 </template>
 
@@ -8,5 +8,5 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 </style>
