@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-    <div class="alert alert-danger">
-      This is just a test resume it is not real
-    </div>
+    <b-alert show dismissible fade variant="danger"
+      >This is just a test resume it is not real</b-alert
+    >
+
     <img src="../../assets/dummy-resume.jpg" alt="Resume" />
   </div>
 </template>
