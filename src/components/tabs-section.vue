@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5">
+  <div class="container mt-4">
     <b-card no-body>
       <b-tabs card>
         <b-tab title="Skills" active>
