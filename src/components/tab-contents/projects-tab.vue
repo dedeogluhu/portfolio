@@ -3,7 +3,7 @@
     <b-card
       :title="project.title"
       tag="article"
-      class="mb-2"
+      class="mb-2 bg-light"
       v-for="project in projects"
       :key="project.title"
     >
@@ -76,6 +76,7 @@ export default {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  border: 0.5px solid gray;
 }
 .badge {
   margin-left: 4px;

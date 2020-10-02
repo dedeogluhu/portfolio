@@ -23,7 +23,8 @@ export default {
 
 <style>
 #app {
-  background-color: #f8f9fa;
+  /* #d6d8d9 */
+  background-color: white;
   min-height: 100vh;
 }
 </style>

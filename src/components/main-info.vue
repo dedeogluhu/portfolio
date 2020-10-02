@@ -2,7 +2,7 @@
   <div class="container pt-4">
     <div class="card">
       <h4 class="card-header">Hüseyin Dedeoğlu</h4>
-      <div class="card-body">
+      <div class="card-body bg-light">
         <h5 class="row">
           <div class="col">
             Hi There <a href="#" class="cursor">👋</a>
