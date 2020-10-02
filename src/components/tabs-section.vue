@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-4">
     <b-card no-body>
-      <b-tabs card>
+      <b-tabs card pills lazy class="bg-light text-dark" align="center">
         <b-tab title="Skills" active>
           <b-card-text>
             <skillsTab />
@@ -37,5 +37,5 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 </style>
