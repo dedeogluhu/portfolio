@@ -10,6 +10,15 @@
       <div :class="`project-card-image ${project.imageClass}`"></div>
       <b-card-text>
         <br />
+        <b-badge
+          variant="success"
+          v-for="tool in project.tools"
+          :key="tool"
+          class="badge"
+        >
+          {{ tool }}
+        </b-badge>
+        <br />
         {{ project.text }}
       </b-card-text>
       <b-button-group>
@@ -36,6 +45,7 @@ export default {
           imageClass: "project-image-dedeogluhu",
           live: "https://dedeogluhu.github.io",
           source: "https://github.com/dedeogluhu",
+          tools: ["vue", "bootstrap"],
         },
       ],
     };
@@ -60,5 +70,9 @@ export default {
   background-image: url(../../assets/Dedeogluhu-screenshot.png);
   background-position: center 0;
   background-size: cover;
+}
+.badge {
+  margin-left: 4px;
+  margin-right: 4px;
 }
 </style>
