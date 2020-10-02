@@ -18,7 +18,7 @@
             class="icon-size"
           />
         </a>
-        <a href="https://github.com/dedeogluhu" class="btn btn-secondary m-3">
+        <a href="https://github.com/dedeogluhu" class="btn btn-dark m-3">
           <font-awesome-icon
             :icon="['fab', 'github']"
             size="lg"
