@@ -51,7 +51,7 @@ export default {
   data: function () {
     return {
       frontend: ["Javascript", "Vuejs", "Html", "Css"],
-      backend: ["Javascript", "Python", ".NET"],
+      backend: ["Javascript", "Python", "C#"],
       other: ["Desktop apps with C#", "Version Control", "MSSQL", "Linux"],
       languages: [
         "Turkish(Native)",
