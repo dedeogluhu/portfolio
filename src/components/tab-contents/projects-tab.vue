@@ -40,7 +40,7 @@ export default {
     return {
       projects: [
         {
-          title: "dedeogluhu.github.io",
+          title: "My Portfolio",
           text: "A portfolio website made using vue and bootstrap",
           imageClass: "project-image-dedeogluhu",
           live: "https://dedeogluhu.github.io",
@@ -61,14 +61,20 @@ export default {
   height: 10rem;
 }
 .project-card-image {
+  width: 100%;
+  height: 200px;
+  /* 
   width: 1000px;
   height: 200px;
+   */
+
   overflow: hidden;
 }
 /* Project Images */
 .project-image-dedeogluhu {
   background-image: url(../../assets/Dedeogluhu-screenshot.png);
-  background-position: center 0;
+  background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
 }
 .badge {
