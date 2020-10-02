@@ -5,7 +5,7 @@
       <div class="card-body">
         <h5 class="card-title">Hi There <a href="#" class="cursor">👋</a></h5>
         <h5 class="card-text">
-          I'm a passionate fullstack developer who loves to build web stuff.
+          I'm a passionate web developer who loves to build stuff.
         </h5>
         <p class="card-text">You can reach me here:</p>
         <a

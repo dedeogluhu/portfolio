@@ -52,7 +52,7 @@ export default {
     return {
       frontend: ["Javascript", "Vuejs", "Html", "Css"],
       backend: ["Javascript", "Python", ".net"],
-      other: ["Version Control", "MSSQL", "Linux"],
+      other: ["Desktop apps with C#", "Version Control", "MSSQL", "Linux"],
       languages: [
         "Turkish(Native)",
         "English(Advanced)",
