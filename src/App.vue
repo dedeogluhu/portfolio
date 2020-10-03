@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style>
+* {
+  font-family: Noto Sans, Helvetica, sans-serif;
+}
 #app {
   /* #d6d8d9 */
   background-color: white;
