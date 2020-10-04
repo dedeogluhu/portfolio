@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-4">
+  <div class="container mt-4 pb-4">
     <b-card
       no-body
       footer="Copyright © 2020 Hüseyin Dedeoğlu. All rights reserved."
