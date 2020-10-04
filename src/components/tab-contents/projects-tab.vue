@@ -30,6 +30,15 @@
         </b-button>
       </b-button-group>
     </b-card>
+    <div class="container mt-5">
+      <div class="row justify-content-md-center">
+        <a
+          href="https://github.com/dedeogluhu?tab=repositories"
+          class="btn btn-primary text-center"
+          >You can find more of my projects here</a
+        >
+      </div>
+    </div>
   </div>
 </template>
 
