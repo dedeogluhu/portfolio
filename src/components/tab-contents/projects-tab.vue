@@ -3,7 +3,7 @@
     <b-card
       :title="project.title"
       tag="article"
-      class="mb-2 bg-light"
+      class="mb-2"
       v-for="project in projects"
       :key="project.title"
     >
@@ -22,10 +22,18 @@
         {{ project.text }}
       </b-card-text>
       <b-button-group>
-        <b-button :href="project.live" variant="outline-primary">
+        <b-button
+          :href="project.live"
+          target="_blank"
+          variant="outline-primary"
+        >
           See Live
         </b-button>
-        <b-button :href="project.source" variant="outline-secondary">
+        <b-button
+          :href="project.source"
+          target="_blank"
+          variant="outline-secondary"
+        >
           Source
         </b-button>
       </b-button-group>
@@ -33,6 +41,7 @@
     <div class="container mt-5">
       <div class="row justify-content-md-center">
         <a
+          target="_blank"
           href="https://github.com/dedeogluhu?tab=repositories"
           class="btn btn-primary text-center"
           >You can find more of my projects here</a
