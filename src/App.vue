@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <mainInfo />
-    <tabsSection />
+    <div id="background"></div>
+    <div class="container">
+      <mainInfo />
+      <tabsSection />
+    </div>
   </div>
 </template>
 
@@ -23,8 +26,17 @@ export default {
   font-family: Noto Sans, Helvetica, sans-serif;
 }
 #app {
-  /* #d6d8d9 */
-  background-color: gray;
+  /* Gray */
   min-height: 100vh;
+}
+#background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("assets/code-bg2.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-attachment: fixed;
+  filter: blur(5px);
 }
 </style>
