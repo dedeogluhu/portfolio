@@ -1,4 +1,6 @@
-# new-portfolio
+# Portfolio
+
+You can see live [here](https://dedeogluhu.github.io)
 
 ## Project setup
 ```
