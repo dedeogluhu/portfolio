@@ -1,15 +1,14 @@
 <template>
   <div class="container pt-4">
     <div class="card">
-      <h4 class="card-header">Hüseyin Dedeoğlu</h4>
-      <div class="card-body bg-light">
+      <h4 class="card-header">Hi There <a href="#" class="cursor">👋</a></h4>
+      <div class="card-body bg-light pb-1">
         <h5 class="row">
           <div class="col">
-            Hi There <a href="#" class="cursor">👋</a>
+            I'm Hüseyin Dedeoğlu
 
-            <h5 class="card-text">
-              <br />
-              I'm a passionate web developer who loves to build stuff.
+            <h5 class="card-text mt-3">
+              A passionate web developer who loves to build stuff.
             </h5>
           </div>
           <div class="col text-right">
