@@ -1,6 +1,10 @@
 <template>
   <div class="container mt-4">
-    <b-card no-body>
+    <b-card
+      no-body
+      footer="Copyright © 2020 Hüseyin Dedeoğlu. All rights reserved."
+      footer-class="text-center"
+    >
       <b-tabs card pills lazy class="bg-light text-dark" align="center">
         <b-tab title="Skills" active>
           <b-card-text>
