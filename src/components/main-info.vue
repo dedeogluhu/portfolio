@@ -5,10 +5,10 @@
       <div class="card-body bg-light pb-1">
         <h5 class="row">
           <div class="col">
-            I'm Hüseyin Dedeoğlu
+            I'm Hüseyin Dedeoğlu,
 
             <h5 class="card-text mt-3">
-              A passionate web developer who loves to build stuff.
+              a passionate developer who loves to build web stuff.
             </h5>
           </div>
           <div class="col text-right">
