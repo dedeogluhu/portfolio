@@ -4,18 +4,15 @@
       <h4 class="card-header">Hi There <a href="#" class="cursor">👋</a></h4>
       <div class="card-body bg-light pb-1">
         <h5 class="row">
-          <div class="col">
+          <div class="col-7">
             I'm Hüseyin Dedeoğlu,
 
             <h5 class="card-text mt-3">
-              a passionate developer who loves to build web stuff.
+              a passionate developer who loves to learn and build stuff.
             </h5>
           </div>
           <div class="col text-right">
-            <a
-              href="mailto:huseyin_dedeoglu1@outlook.com"
-              class="btn btn-primary m-2"
-            >
+            <a href="mailto:dedeogluhu@gmail.com" class="btn btn-primary m-2">
               <font-awesome-icon
                 :icon="['fas', 'envelope']"
                 size="lg"
