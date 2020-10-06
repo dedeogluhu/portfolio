@@ -1,9 +1,18 @@
 <template>
   <div class="container">
-    <b-alert show dismissible fade variant="danger"
-      >This is just a test resume. I am going to add the real one soon.
-    </b-alert>
-    <img src="../../assets/dummy-resume.jpg" alt="Resume" />
+    <div class="row">
+      <div class="col text-right">
+        <a
+          href="https://github.com/dedeogluhu/dedeogluhu.github.io/files/5333691/resume.pdf"
+          class="btn btn-danger mb-5"
+          target="_blank"
+        >
+          Download Pdf
+        </a>
+      </div>
+    </div>
+
+    <img src="../../assets/resume.jpg" alt="Resume" />
   </div>
 </template>
 
@@ -15,7 +24,7 @@ export default {
 
 <style scoped>
 .resume-image {
-  background-image: url("../../assets/dummy-resume.jpg");
+  background-image: url("../../assets/resume.jpg");
 }
 img {
   width: 100%;
