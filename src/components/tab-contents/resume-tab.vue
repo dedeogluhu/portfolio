@@ -4,7 +4,7 @@
       <div class="col text-right">
         <a
           href="https://github.com/dedeogluhu/dedeogluhu.github.io/files/5333691/resume.pdf"
-          class="btn btn-danger mb-5"
+          class="btn btn-danger mb-4"
           target="_blank"
         >
           Download Pdf
