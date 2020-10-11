@@ -59,8 +59,8 @@ export default {
   data: function () {
     return {
       programmingLanguages: ["Javascript", "Python", "C#", "Html/Css"],
-      frameworks: ["Vuejs", "Nodejs", "Expressjs"],
-      other: ["Desktop apps", "Version Control", "MSSQL", "MongoDB"],
+      frameworks: ["Vuejs", "Nodejs", "Expressjs", "Django"],
+      other: ["Desktop apps", "Version Control", "MongoDB", "MSSQL"],
       languages: [
         "Turkish(Native)",
         "English(Advanced)",
