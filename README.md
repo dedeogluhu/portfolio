@@ -1,5 +1,7 @@
 # Portfolio
 
+This repository holds the source codes of [this](https://github.com/dedeogluhu/dedeogluhu.github.io) repository
+
 You can see live [here](https://dedeogluhu.github.io)
 
 ## Project setup
