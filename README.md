@@ -2,7 +2,7 @@
 
 This repository holds the source codes of [this](https://github.com/dedeogluhu/dedeogluhu.github.io) repository
 
-You can see it live [here](https://dedeogluhu.github.io)
+You can see the project live [here](https://dedeogluhu.github.io)
 
 ## Project setup
 ```
