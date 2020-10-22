@@ -23,16 +23,36 @@
       </b-card-text>
       <b-button-group>
         <b-button
+          v-if="project.live"
           :href="project.live"
           target="_blank"
-          variant="outline-primary"
+          variant="primary"
         >
           See Live
         </b-button>
         <b-button
+          v-else
+          :href="project.live"
+          target="_blank"
+          variant="primary"
+          disabled
+        >
+          See Live
+        </b-button>
+        <b-button
+          v-if="project.source"
           :href="project.source"
           target="_blank"
-          variant="outline-secondary"
+          variant="secondary"
+        >
+          Source
+        </b-button>
+        <b-button
+          v-else
+          :href="project.source"
+          target="_blank"
+          variant="secondary"
+          disabled
         >
           Source
         </b-button>
@@ -59,11 +79,19 @@ export default {
       projects: [
         {
           title: "My Portfolio",
-          text: "A portfolio website made using vue and bootstrap",
+          text: "Portfolio website made using vue and bootstrap",
           imageClass: "project-image-dedeogluhu",
           live: "https://dedeogluhu.github.io",
           source: "https://github.com/dedeogluhu",
           tools: ["vue", "bootstrap"],
+        },
+        {
+          title: "You Should Draw",
+          text: "Drawing app with a drawing suggestion api",
+          imageClass: "project-image-youshoulddraw",
+          live: "",
+          source: "https://github.com/dedeogluhu/YouShouldDraw",
+          tools: ["vue", "bootstrap", "node", "express"],
         },
       ],
     };
@@ -96,6 +124,14 @@ export default {
   background-size: cover;
   border: 0.5px solid gray;
 }
+.project-image-youshoulddraw {
+  background-image: url(https://user-images.githubusercontent.com/64230499/96458334-79b81b80-1229-11eb-918b-404740c91c28.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border: 0.5px solid gray;
+}
+
 .badge {
   margin-left: 4px;
   margin-right: 4px;
