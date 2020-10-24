@@ -30,6 +30,7 @@
         >
           See Live
         </b-button>
+
         <b-button
           v-else
           :href="project.live"
@@ -37,7 +38,9 @@
           variant="primary"
           disabled
         >
-          See Live
+          <span v-b-tooltip.hover title="Sorry, the app is not hosted yet.">
+            See Live
+          </span>
         </b-button>
         <b-button
           v-if="project.source"
@@ -54,7 +57,12 @@
           variant="secondary"
           disabled
         >
-          Source
+          <span
+            v-b-tooltip.hover
+            title="Sorry, we can't share the source codes."
+          >
+            Source
+          </span>
         </b-button>
       </b-button-group>
     </b-card>
@@ -116,6 +124,11 @@ export default {
 
   overflow: hidden;
 }
+
+.badge {
+  margin-left: 4px;
+  margin-right: 4px;
+}
 /* Project Images */
 .project-image-dedeogluhu {
   background-image: url(../../assets/Dedeogluhu-screenshot.png);
@@ -130,10 +143,5 @@ export default {
   background-position: top center;
   background-size: cover;
   border: 0.5px solid gray;
-}
-
-.badge {
-  margin-left: 4px;
-  margin-right: 4px;
 }
 </style>
