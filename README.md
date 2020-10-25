@@ -26,3 +26,10 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# Contributions
+
+Feel free to open any issues or pull requests. Any contribution is much appreciated.
+
+# License : [MIT](https://github.com/dedeogluhu/portfolio/blob/master/LICENSE)
+
