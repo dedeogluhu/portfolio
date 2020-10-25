@@ -1,10 +1,12 @@
 # Portfolio
 
-This repository holds the source codes of [this](https://github.com/dedeogluhu/dedeogluhu.github.io) repository
+This repository holds the source codes of [this](https://github.com/dedeogluhu/dedeogluhu.github.io) repository.
 
-You can see the project live [here](https://dedeogluhu.github.io)
+You can see the project live [here](https://dedeogluhu.github.io).
 
 # Getting Started
+
+Nodejs and npm/yarn needs to be installed.
 
 ## Project setup
 ```
