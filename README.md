@@ -4,6 +4,8 @@ This repository holds the source codes of [this](https://github.com/dedeogluhu/d
 
 You can see the project live [here](https://dedeogluhu.github.io)
 
+# Getting Started
+
 ## Project setup
 ```
 yarn install
