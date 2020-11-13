@@ -7,7 +7,7 @@
           class="btn btn-danger mb-4"
           target="_blank"
         >
-          Download Pdf
+          Download as Pdf
         </a>
       </div>
     </div>
