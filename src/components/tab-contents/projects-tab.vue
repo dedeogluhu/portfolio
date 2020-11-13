@@ -7,7 +7,16 @@
       v-for="project in projects"
       :key="project.title"
     >
-      <div :class="`project-card-image ${project.imageClass}`"></div>
+      <div
+        class="project-card-image"
+        :style="`
+          background-image: url(${project.imageUrl});
+          background-repeat: no-repeat;
+          background-position: top center;
+          background-size: cover;
+          border: 0.5px solid gray;
+        `"
+      ></div>
       <b-card-text>
         <br />
         <b-badge
@@ -72,8 +81,9 @@
           target="_blank"
           href="https://github.com/dedeogluhu?tab=repositories"
           class="btn btn-primary text-center"
-          >You can find more of my projects here</a
         >
+          You can find more of my projects here
+        </a>
       </div>
     </div>
   </div>
@@ -88,7 +98,8 @@ export default {
         {
           title: "My Portfolio",
           text: "Portfolio website made using vue and bootstrap",
-          imageClass: "project-image-dedeogluhu",
+          imageUrl:
+            "https://user-images.githubusercontent.com/64230499/99084272-cb10bc00-25d7-11eb-9e68-55a22c2a6191.png",
           live: "https://dedeogluhu.github.io",
           source: "https://github.com/dedeogluhu",
           tools: ["vue", "bootstrap"],
@@ -96,7 +107,8 @@ export default {
         {
           title: "You Should Draw",
           text: "Drawing app with a drawing suggestion api",
-          imageClass: "project-image-youshoulddraw",
+          imageUrl:
+            "https://user-images.githubusercontent.com/64230499/96458334-79b81b80-1229-11eb-918b-404740c91c28.png",
           live: "",
           source: "https://github.com/dedeogluhu/YouShouldDraw",
           tools: ["vue", "bootstrap", "node", "express"],
@@ -117,31 +129,11 @@ export default {
 .project-card-image {
   width: 100%;
   height: 200px;
-  /* 
-  width: 1000px;
-  height: 200px;
-   */
-
   overflow: hidden;
 }
 
 .badge {
   margin-left: 4px;
   margin-right: 4px;
-}
-/* Project Images */
-.project-image-dedeogluhu {
-  background-image: url(../../assets/Dedeogluhu-screenshot.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  border: 0.5px solid gray;
-}
-.project-image-youshoulddraw {
-  background-image: url(https://user-images.githubusercontent.com/64230499/96458334-79b81b80-1229-11eb-918b-404740c91c28.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  border: 0.5px solid gray;
 }
 </style>
