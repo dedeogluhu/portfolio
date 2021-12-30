@@ -133,7 +133,6 @@ export default {
 }
 
 .badge {
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 </style>
