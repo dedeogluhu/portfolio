@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col text-right">
         <a
-          href="https://github.com/dedeogluhu/dedeogluhu.github.io/files/7873541/CV.-.Huseyin.Dedeoglu.pdf"
+          href="https://github.com/dedeogluhu/dedeogluhu.github.io/files/7873567/resume.pdf"
           class="btn btn-danger mb-4"
           target="_blank"
         >
